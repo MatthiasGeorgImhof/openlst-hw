@@ -1,3 +1,12 @@
+$1K CubeSat Design
+==========================
+This forked repo adapts the hardware from the OpenLST Reference into something that works for my $1K CubeSat project
+
+**Please note that this repository is desgined to be used as a submodule**, since it depends on symbols & footprints in my [1KCubeSat_Hardware repository](https://github.com/rgw3d/1KCubeSat_Hardware)
+
+
+Original README below
+
 OpenLST Reference Hardware
 ==========================
 
