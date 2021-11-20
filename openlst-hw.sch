@@ -343,21 +343,6 @@ F 3 "" H 4050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Ferrite_Bead L2
-U 1 1 5B3339BF
-P 6925 2650
-F 0 "L2" V 6775 2675 50  0000 C CNN
-F 1 "Z=1k @ 100M" V 7075 2650 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6855 2650 50  0001 C CNN
-F 3 "http://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6925 2650 50  0001 C CNN
-F 4 "Wurth" V 6925 2650 60  0001 C CNN "Manuf"
-F 5 "74279266" V 6925 2650 60  0001 C CNN "ManufPN"
-F 6 "Digikey" V 6925 2650 60  0001 C CNN "Supplier"
-F 7 "732-4484-1-ND" V 6925 2650 60  0001 C CNN "SupplierPN"
-	1    6925 2650
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5B31A0A4
 P 8325 9900
@@ -811,6 +796,8 @@ F 0 "U3" H 6575 4025 50  0000 C CNN
 F 1 "0433BM15A0001" H 6575 3934 50  0000 C CNN
 F 2 "RF_Converter:Balun_Johanson_0896BM15A0001" H 6575 3300 50  0001 C CNN
 F 3 "https://www.johansontechnology.com/datasheets/0433BM15A0001/0433BM15A0001.pdf" H 6575 3900 50  0001 C CNN
+F 4 "0433BM15A0001E" H 6575 3600 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/johanson-technology-inc/0433BM15A0001E/2764673" H 6575 3600 50  0001 C CNN "Order"
 	1    6575 3600
 	-1   0    0    -1  
 $EndComp
@@ -1816,10 +1803,8 @@ F 0 "L3" V 8900 2675 50  0000 C CNN
 F 1 "Z=1k @ 100M" V 9200 2650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8980 2650 50  0001 C CNN
 F 3 "http://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 9050 2650 50  0001 C CNN
-F 4 "Wurth" V 9050 2650 60  0001 C CNN "Manuf"
-F 5 "74279266" V 9050 2650 60  0001 C CNN "ManufPN"
-F 6 "Digikey" V 9050 2650 60  0001 C CNN "Supplier"
-F 7 "732-4484-1-ND" V 9050 2650 60  0001 C CNN "SupplierPN"
+F 4 "BLM18AG102SN1D" H 9050 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/murata-electronics/BLM18AG102SN1D/584226" H 9050 2650 50  0001 C CNN "Order"
 	1    9050 2650
 	0    1    1    0   
 $EndComp
@@ -1861,11 +1846,9 @@ P 5050 2650
 F 0 "L1" V 4900 2675 50  0000 C CNN
 F 1 "Z=1k @ 100M" V 5200 2650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 2650 50  0001 C CNN
-F 3 "http://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 5050 2650 50  0001 C CNN
-F 4 "Wurth" V 5050 2650 60  0001 C CNN "Manuf"
-F 5 "74279266" V 5050 2650 60  0001 C CNN "ManufPN"
-F 6 "Digikey" V 5050 2650 60  0001 C CNN "Supplier"
-F 7 "732-4484-1-ND" V 5050 2650 60  0001 C CNN "SupplierPN"
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5050 2650 50  0001 C CNN
+F 4 "BLM18AG102SN1D" V 5050 2650 60  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/murata-electronics/BLM18AG102SN1D/584226" V 5050 2650 50  0001 C CNN "Order"
 	1    5050 2650
 	0    1    1    0   
 $EndComp
@@ -2488,10 +2471,8 @@ F 0 "L4" V 13575 1025 50  0000 C CNN
 F 1 "Z=1k @ 100M" V 13875 1000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13655 1000 50  0001 C CNN
 F 3 "http://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 13725 1000 50  0001 C CNN
-F 4 "Wurth" V 13725 1000 60  0001 C CNN "Manuf"
-F 5 "74279266" V 13725 1000 60  0001 C CNN "ManufPN"
-F 6 "Digikey" V 13725 1000 60  0001 C CNN "Supplier"
-F 7 "732-4484-1-ND" V 13725 1000 60  0001 C CNN "SupplierPN"
+F 4 "BLM18AG102SN1D" H 13725 1000 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/murata-electronics/BLM18AG102SN1D/584226" H 13725 1000 50  0001 C CNN "Order"
 	1    13725 1000
 	0    1    1    0   
 $EndComp
@@ -3762,10 +3743,10 @@ F 3 "~" H 1750 9575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L Connector_Generic:Conn_01x04 J10
 U 1 1 63D3C2CB
 P 1175 9575
-F 0 "J1" H 1150 9775 50  0000 L CNN
+F 0 "J10" H 1150 9775 50  0000 L CNN
 F 1 "EXT VBUS" H 1000 9275 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1175 9575 50  0001 C CNN
 F 3 "~" H 1175 9575 50  0001 C CNN
@@ -3779,9 +3760,9 @@ P 8775 9100
 F 0 "J7" H 8825 8675 50  0000 C CNN
 F 1 "CC Prog/Debug" H 8825 8766 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 8775 9100 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" H 8775 9100 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-105-01-L-DV-K-P/6613384" H 8775 9100 50  0001 C CNN "Order"
-F 5 "FTSH-105-01-L-DV-K-P" H 8775 9100 50  0001 C CNN "Mfr. #"
+F 3 "https://app.adam-tech.com/products/download/data_sheet/199937/hph2-a-xx-ua-smt-data-sheet.pdf" H 8775 9100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/adam-tech/HPH2-A-10-UA-SMT/9831541" H 8775 9100 50  0001 C CNN "Order"
+F 5 "HPH2-A-10-UA-SMT" H 8775 9100 50  0001 C CNN "Mfr. #"
 	1    8775 9100
 	1    0    0    1   
 $EndComp
@@ -3899,4 +3880,83 @@ Wire Wire Line
 	3950 4550 4750 4550
 Wire Wire Line
 	3950 4650 4750 4650
+$Comp
+L openlst-hw:Ferrite_Bead L2
+U 1 1 5B3339BF
+P 6925 2650
+F 0 "L2" V 6775 2675 50  0000 C CNN
+F 1 "Z=1k @ 100M" V 7075 2650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6855 2650 50  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6925 2650 50  0001 C CNN
+F 4 "BLM18AG102SN1D" H 6925 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/murata-electronics/BLM18AG102SN1D/584226" H 6925 2650 50  0001 C CNN "Order"
+	1    6925 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61A05BD6
+P 10900 9850
+F 0 "H5" H 11000 9896 50  0000 L CNN
+F 1 "MountingHole" H 11000 9805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 10900 9850 50  0001 C CNN
+F 3 "~" H 10900 9850 50  0001 C CNN
+	1    10900 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61A6F583
+P 10900 10075
+F 0 "H6" H 11000 10121 50  0000 L CNN
+F 1 "MountingHole" H 11000 10030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 10900 10075 50  0001 C CNN
+F 3 "~" H 10900 10075 50  0001 C CNN
+	1    10900 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 61AA5340
+P 10900 10300
+F 0 "H7" H 11000 10346 50  0000 L CNN
+F 1 "MountingHole" H 11000 10255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 10900 10300 50  0001 C CNN
+F 3 "~" H 10900 10300 50  0001 C CNN
+	1    10900 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 61AF5ACD
+P 15175 9050
+F 0 "LOGO1" H 15175 9325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 15175 8825 50  0001 C CNN
+F 2 "footprint_custom:a1" H 15175 9050 50  0001 C CNN
+F 3 "~" H 15175 9050 50  0001 C CNN
+	1    15175 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 61B60387
+P 15700 9050
+F 0 "LOGO2" H 15700 9325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 15700 8825 50  0001 C CNN
+F 2 "footprint_custom:a2" H 15700 9050 50  0001 C CNN
+F 3 "~" H 15700 9050 50  0001 C CNN
+	1    15700 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 61B96143
+P 16225 9050
+F 0 "LOGO3" H 16225 9325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 16225 8825 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_24.3x20mm_SilkScreen" H 16225 9050 50  0001 C CNN
+F 3 "~" H 16225 9050 50  0001 C CNN
+	1    16225 9050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
