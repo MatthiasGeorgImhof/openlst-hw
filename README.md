@@ -26,6 +26,28 @@ RF Pipeline
 * 50 Ohm
 * Impedance calculations for OSH Park PCB found [here](images/osh-park-4-layer-50ohms.png)
 
+Design Verification
+--------
+
+Initial testing has verified basic functionality.
+
+* 437MHz reference software from the [OpenLST Software repo](https://github.com/rgw3d/openlst) is able to be flashed onto the CC1110. NOTE: CC1110 PA output power was modified from 10dBm to 0dBm.
+* The 3.3V rail consumes 130mA to 150mA. One board indicated 130mA, another one had 150mA, unsure what causes the discrepency.
+* The 27MHz clipped sine wave oscillator works as a clock source
+* The RF pipeline is functional. Both the test output (J8) and the RF Frontend output (J9) function.
+* Radio-to-radio communication with test outputs connected. Communication was initiated using UART1 on Board 1.
+  * (J8, Board 1)---(coax)---(30dBm attenuator)---(coax)---(J8, Board 2)
+* Radio-to-radio communication with RF Frontend outputs connected. Communication was initiated using UART1 on Board 1.
+  * (J9, Board 1)---(coax)---(three 30dBm attenuators)---(coax)---(J9, Board 2)
+* At this time no RF performance characteristics were measured. (I don't have the lab equipment for those tests)
+
+Improvements for future version
+--------
+
+* Pi network at output of RF Frontend. Could be useful to match an antenna.
+* Better 3.3V LDO. For a bench top setup, U1 (ADP150-3.3V) can just supply 150mA. While this design assumes an external 3.3V source, this on-board convenience ought to be sized up.
+* Ferrite beads or 0Ohm Resistors on power inputs to all components. During assembly for one of the boards, a short was detected on the 3.3V rail. Several components share that rail without an easy way to open it, which would have made isolating the problem simple.
+
 Pictures
 --------
 
