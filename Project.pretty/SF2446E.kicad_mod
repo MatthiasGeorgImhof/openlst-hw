@@ -1,0 +1,217 @@
+(footprint "SF2446E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U7"
+		(at -3.595 0 90)
+		(layer "F.SilkS")
+		(uuid "cc9e72c8-fc98-441c-a09d-c46044b78423")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SF2446E"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ddef8189-bebe-4239-98c3-a9530c337d6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprint_custom:SF2446E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce6d936f-fca0-416c-b1c8-cc36f7958885")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.rfmi.co/pdf/Datasheet/sf2446e.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a556b301-bf6c-4def-af7c-e228cdb450e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "754a014e-1dc0-4c4b-8cdc-43fd2048d730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr. #" "SF2446E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4e8ca1f-c250-40b7-ac69-c68fc479e016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order" "https://www.digikey.com/en/products/detail/rfmi/SF2446E/12178506"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddf77239-e986-46de-8743-6da8ef092eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.595 -2.8)
+		(end 2.595 -2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc5eeefb-e3e6-4f97-82af-3dc98cb276b8")
+	)
+	(fp_line
+		(start -2.595 2)
+		(end -2.595 -2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "057b7eb4-c22f-4789-a672-cff2aa4cbd00")
+	)
+	(fp_line
+		(start -1.795 2.8)
+		(end -2.595 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6336c69c-a2c2-4450-90f4-57efb138121b")
+	)
+	(fp_line
+		(start 2.595 -2.8)
+		(end 2.595 2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55cdf064-f8a4-4950-a308-fc8ca5a7bd6d")
+	)
+	(fp_line
+		(start 2.595 2.8)
+		(end -1.795 2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3acdd041-4a0f-4d79-aba7-5fb406722237")
+	)
+	(fp_line
+		(start -1.85 -2.05)
+		(end 1.85 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4015a290-b922-4b64-b99d-b3a05986aa77")
+	)
+	(fp_line
+		(start -1.85 2.05)
+		(end -1.85 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "285edaa8-ca30-4b7e-82a0-d30dbbceb3df")
+	)
+	(fp_line
+		(start 1.85 -2.05)
+		(end 1.85 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f913066-c24d-4c1e-b0b5-3faa7eb7f2b8")
+	)
+	(fp_line
+		(start 1.85 2.05)
+		(end -1.85 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62b6f60d-8de5-4964-b514-6d553bb5e3a1")
+	)
+	(pad "1" smd rect
+		(at -1.19 0.85)
+		(size 0.81 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c835a86-e096-4455-8eb6-01ab81b0040e")
+	)
+	(pad "2" smd rect
+		(at 0 1.175)
+		(size 0.81 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e7aed5c0-f330-466d-bf94-cd01dd32bc72")
+	)
+	(pad "3" smd rect
+		(at 1.19 1.175)
+		(size 0.81 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e83a9b3-0a58-4bc6-8b7b-ea29392f038d")
+	)
+	(pad "4" smd rect
+		(at 1.19 -1.175)
+		(size 0.81 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46f922dc-524c-45bd-9f58-cf48afb27b6a")
+	)
+	(pad "5" smd rect
+		(at 0 -1.175)
+		(size 0.81 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3434461c-7296-4335-b269-ac5a229df06d")
+	)
+	(pad "6" smd rect
+		(at -1.19 -1.175)
+		(size 0.81 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6787962-5974-485c-9eae-9faeddcd8af2")
+	)
+)
