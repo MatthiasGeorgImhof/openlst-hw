@@ -1089,6 +1089,10 @@
     [
       "2a6bdfd7-41a7-4911-995f-8535abdbc7e3",
       "Power Converters"
+    ],
+    [
+      "b9e97f7d-12ec-4b5e-bc04-614f435faf3e",
+      "UART-CAN"
     ]
   ],
   "text_variables": {}
