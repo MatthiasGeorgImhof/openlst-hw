@@ -1107,20 +1107,24 @@
       "Root"
     ],
     [
-      "00000000-0000-0000-0000-0000612c4ae4",
-      "INTERBOARD_CONNECTOR2"
+      "f5534efb-fc6e-465a-a57b-daca63f2ce0c",
+      "MCU"
     ],
     [
-      "2a6bdfd7-41a7-4911-995f-8535abdbc7e3",
-      "Power Converters"
+      "d6d0e934-53b0-468d-8d79-aec6d2c37df2",
+      "RF"
     ],
     [
       "b9e97f7d-12ec-4b5e-bc04-614f435faf3e",
       "UART-CAN"
     ],
     [
-      "d6d0e934-53b0-468d-8d79-aec6d2c37df2",
-      "RF"
+      "2a6bdfd7-41a7-4911-995f-8535abdbc7e3",
+      "Power Converters"
+    ],
+    [
+      "00000000-0000-0000-0000-0000612c4ae4",
+      "INTERBOARD_CONNECTOR2"
     ]
   ],
   "text_variables": {}
