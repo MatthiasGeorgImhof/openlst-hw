@@ -915,10 +915,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -927,10 +927,10 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -945,7 +945,7 @@
           "group_by": false,
           "label": "Amps",
           "name": "Amps",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -969,7 +969,7 @@
           "group_by": false,
           "label": "Manufactorer",
           "name": "Manufactorer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -993,7 +993,7 @@
           "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1017,18 +1017,42 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
           "show": false
         }
       ],
@@ -1093,6 +1117,10 @@
     [
       "b9e97f7d-12ec-4b5e-bc04-614f435faf3e",
       "UART-CAN"
+    ],
+    [
+      "d6d0e934-53b0-468d-8d79-aec6d2c37df2",
+      "RF"
     ]
   ],
   "text_variables": {}
