@@ -5613,7 +5613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04b9328b-ac93-4099-a61b-e47cc77b3b2b")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 159.385 133.985 0)
 			(effects
 				(font
@@ -5719,7 +5719,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/d6d0e934-53b0-468d-8d79-aec6d2c37df2"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "218784d1-ddfc-4acf-91b7-2ac9db5c0289")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -6682,7 +6682,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/d6d0e934-53b0-468d-8d79-aec6d2c37df2"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6912,7 +6912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2497447a-af8b-4b11-a189-5530ffce7343")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 128.27 147.32 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/d6d0e934-53b0-468d-8d79-aec6d2c37df2"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "392fec88-480e-48e8-9598-83769a03216b")
-		(property "Reference" "C39"
+		(property "Reference" "C37"
 			(at 119.38 133.35 90)
 			(effects
 				(font
@@ -8026,7 +8026,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/d6d0e934-53b0-468d-8d79-aec6d2c37df2"
-					(reference "C39")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c64c6b43-e027-4334-9fa4-d110a6f52b8a")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 151.765 133.985 0)
 			(effects
 				(font
@@ -11023,7 +11023,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/d6d0e934-53b0-468d-8d79-aec6d2c37df2"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
