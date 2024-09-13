@@ -357,20 +357,12 @@
 		(uuid "084f7ccc-4932-4ddb-9a85-e39af2478c75")
 	)
 	(no_connect
-		(at 49.53 76.2)
-		(uuid "164b950b-2aad-44e5-bded-3afe209b63cf")
-	)
-	(no_connect
 		(at 49.53 107.95)
 		(uuid "33dd3bb0-ca00-4ac6-9270-f7c85e8b48f5")
 	)
 	(no_connect
 		(at 49.53 123.19)
 		(uuid "3aa5eb12-a090-4da5-b1ef-a9916f448a0d")
-	)
-	(no_connect
-		(at 49.53 73.66)
-		(uuid "616fed50-3dfc-47ef-b5b5-0c18726121e9")
 	)
 	(no_connect
 		(at 49.53 148.59)
@@ -391,10 +383,6 @@
 	(no_connect
 		(at 49.53 125.73)
 		(uuid "86c1cb27-d6a4-4dc2-86d0-a5368492a47a")
-	)
-	(no_connect
-		(at 49.53 78.74)
-		(uuid "9e6ebb32-9ed8-46b6-a9e9-263b0d2171c5")
 	)
 	(no_connect
 		(at 49.53 97.79)
@@ -423,10 +411,6 @@
 	(no_connect
 		(at 49.53 113.03)
 		(uuid "e74a6372-923e-449f-823c-7cdcc7bfdb7c")
-	)
-	(no_connect
-		(at 49.53 81.28)
-		(uuid "f11269e0-c869-4ef2-8244-67bb7a4f2736")
 	)
 	(no_connect
 		(at 49.53 118.11)
@@ -1915,36 +1899,6 @@
 			)
 			(uuid "28ef7892-d6ad-4927-bff3-3c4452654f1b")
 		)
-		(pin "SPARE_1" output
-			(at 49.53 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "e845ad52-cbaf-4da3-abbe-1544c020ced3")
-		)
-		(pin "SPARE_2" output
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "d7c19073-7e29-42e8-acde-4f57e31b7c74")
-		)
-		(pin "SPARE_3" output
-			(at 49.53 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "a7ade4c3-7d59-498e-ac8d-8634c623c31b")
-		)
 		(pin "UART_B_RXI" output
 			(at 49.53 59.69 0)
 			(effects
@@ -1984,16 +1938,6 @@
 				(justify right)
 			)
 			(uuid "71e0f447-de2b-4ad9-b22d-18f8ed58c6fc")
-		)
-		(pin "SPARE_4" output
-			(at 49.53 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "8f695dc6-ba90-4617-88f6-d6f4c6e549f7")
 		)
 		(pin "GND" output
 			(at 49.53 86.36 0)
