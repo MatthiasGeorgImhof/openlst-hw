@@ -353,75 +353,95 @@
 		(uuid "fa7a3c1b-1587-4807-9908-0c63e50fe6ea")
 	)
 	(no_connect
-		(at 49.53 115.57)
+		(at 49.53 106.045)
 		(uuid "084f7ccc-4932-4ddb-9a85-e39af2478c75")
 	)
 	(no_connect
-		(at 49.53 107.95)
+		(at 49.53 98.425)
 		(uuid "33dd3bb0-ca00-4ac6-9270-f7c85e8b48f5")
 	)
 	(no_connect
-		(at 49.53 123.19)
+		(at 49.53 113.665)
 		(uuid "3aa5eb12-a090-4da5-b1ef-a9916f448a0d")
 	)
 	(no_connect
-		(at 49.53 148.59)
+		(at 49.53 137.795)
 		(uuid "64ddec5b-dd9c-4b30-a4ca-92d669146ed3")
 	)
 	(no_connect
-		(at 49.53 138.43)
+		(at 49.53 141.605)
+		(uuid "65ee7e2e-c6de-4ab3-afc3-086100c2e12c")
+	)
+	(no_connect
+		(at 49.53 127.635)
 		(uuid "6aba4cc7-6703-4f8f-bd15-7acb107304c4")
 	)
 	(no_connect
-		(at 49.53 120.65)
+		(at 49.53 111.125)
 		(uuid "6d72dd4e-0be4-4709-bfe3-71eb2f9b8ecb")
 	)
 	(no_connect
-		(at 49.53 154.94)
+		(at 49.53 144.145)
 		(uuid "8053be13-38dd-46f7-a422-34ebad1d7fc2")
 	)
 	(no_connect
-		(at 49.53 125.73)
+		(at 49.53 116.205)
 		(uuid "86c1cb27-d6a4-4dc2-86d0-a5368492a47a")
 	)
 	(no_connect
-		(at 49.53 97.79)
+		(at 49.53 75.565)
+		(uuid "99d6792b-0b45-449c-9938-021de145ff66")
+	)
+	(no_connect
+		(at 49.53 86.36)
 		(uuid "a09fb422-5b08-4543-b9b8-fb2866634ce7")
 	)
 	(no_connect
-		(at 49.53 140.97)
+		(at 49.53 130.175)
 		(uuid "a1d03265-b9e2-438d-9859-fbb8c2b2b17b")
 	)
 	(no_connect
-		(at 49.53 102.87)
+		(at 49.53 118.745)
+		(uuid "a9e4eebc-16da-4144-b9bc-123790d8f1d2")
+	)
+	(no_connect
+		(at 49.53 93.345)
 		(uuid "ac38e27d-c9a0-4d26-a8d4-1d48a3682704")
 	)
 	(no_connect
-		(at 49.53 110.49)
+		(at 49.53 100.965)
 		(uuid "b3d0499f-b947-46d0-a0c7-8f1d98450775")
 	)
 	(no_connect
-		(at 49.53 157.48)
+		(at 49.53 81.28)
+		(uuid "c447cda0-f497-4bca-a1aa-d97c0826628d")
+	)
+	(no_connect
+		(at 49.53 146.685)
 		(uuid "c74a21c9-f5e8-4673-b7f1-5297c920f80c")
 	)
 	(no_connect
-		(at 49.53 146.05)
+		(at 49.53 135.255)
 		(uuid "d6677cb4-7792-4795-8cce-4e778a56c068")
 	)
 	(no_connect
-		(at 49.53 113.03)
+		(at 49.53 103.505)
 		(uuid "e74a6372-923e-449f-823c-7cdcc7bfdb7c")
 	)
 	(no_connect
-		(at 49.53 118.11)
+		(at 49.53 83.82)
+		(uuid "f23fca82-dc13-412e-a050-a4524d7e1eaf")
+	)
+	(no_connect
+		(at 49.53 108.585)
 		(uuid "f586cc82-c4d0-4aad-b234-36667b8a4164")
 	)
 	(no_connect
-		(at 49.53 105.41)
+		(at 49.53 95.885)
 		(uuid "f702c2a7-a43a-4d63-afe0-5edc499b6d3a")
 	)
 	(no_connect
-		(at 49.53 100.33)
+		(at 49.53 90.805)
 		(uuid "fe14160e-5dde-49b2-839e-bf2b038eaae3")
 	)
 	(wire
@@ -516,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 86.36) (xy 53.34 86.36)
+			(xy 49.53 157.48) (xy 54.61 157.48)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +687,7 @@
 	)
 	(global_label "CAN_H"
 		(shape bidirectional)
-		(at 49.53 130.81 0)
+		(at 49.53 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -677,7 +697,7 @@
 		)
 		(uuid "156fa7ca-cc7d-4555-afbb-b7995e931641")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6544 130.81 0)
+			(at 60.6544 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +797,7 @@
 	)
 	(global_label "CAN_L"
 		(shape bidirectional)
-		(at 49.53 133.35 0)
+		(at 49.53 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -787,7 +807,7 @@
 		)
 		(uuid "add32050-6ea0-4084-88b1-da9276390e42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2915 133.35 0)
+			(at 60.2915 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +841,7 @@
 	)
 	(global_label "5V0"
 		(shape input)
-		(at 49.53 50.8 0)
+		(at 49.53 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -831,7 +851,7 @@
 		)
 		(uuid "ee1a15ba-67ab-4d31-8955-4bd3f1d8bba4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5359 50.8 0)
+			(at 56.5359 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 86.36 0)
+		(at 54.61 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1203,7 +1223,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000634650ef")
 		(property "Reference" "#PWR01"
-			(at 53.34 92.71 0)
+			(at 54.61 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 90.17 0)
+			(at 54.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 86.36 0)
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 86.36 0)
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 86.36 0)
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1960,7 @@
 			(uuid "71e0f447-de2b-4ad9-b22d-18f8ed58c6fc")
 		)
 		(pin "GND" output
-			(at 49.53 86.36 0)
+			(at 49.53 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1950,7 +1970,7 @@
 			(uuid "3c1ef541-4a2c-42c0-8d7f-c574b49e05ca")
 		)
 		(pin "3V3_1" output
-			(at 49.53 100.33 0)
+			(at 49.53 90.805 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1960,7 +1980,7 @@
 			(uuid "343d4c46-df11-4997-8f61-1a3094d445e9")
 		)
 		(pin "AVI_RESET" output
-			(at 49.53 154.94 0)
+			(at 49.53 144.145 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1970,7 +1990,7 @@
 			(uuid "6dbf08fb-3b51-4ec6-9113-a92213052550")
 		)
 		(pin "CAN1H" bidirectional
-			(at 49.53 130.81 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1980,7 +2000,7 @@
 			(uuid "cb52e35c-65c8-4737-9be9-96a585bc897e")
 		)
 		(pin "CAN1L" bidirectional
-			(at 49.53 133.35 0)
+			(at 49.53 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1990,7 +2010,7 @@
 			(uuid "ab658be5-bc4d-473a-baf1-d88c1f93580b")
 		)
 		(pin "UART_A_TXO" output
-			(at 49.53 146.05 0)
+			(at 49.53 135.255 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2000,7 +2020,7 @@
 			(uuid "f3f979f2-bef9-4ed2-997e-feb477ac674a")
 		)
 		(pin "UART_A_RXI" input
-			(at 49.53 148.59 0)
+			(at 49.53 137.795 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2010,7 +2030,7 @@
 			(uuid "1234e0ef-f857-4836-b666-01d920444aea")
 		)
 		(pin "EPS_RESET" output
-			(at 49.53 157.48 0)
+			(at 49.53 146.685 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2020,7 +2040,7 @@
 			(uuid "0edc05c7-2be8-4da4-b4f9-0591f58949db")
 		)
 		(pin "3V3_3" output
-			(at 49.53 105.41 0)
+			(at 49.53 95.885 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2030,7 +2050,7 @@
 			(uuid "b36bd096-9acc-42d2-95ef-1d619760a1ec")
 		)
 		(pin "3V3_4" output
-			(at 49.53 107.95 0)
+			(at 49.53 98.425 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2040,7 +2060,7 @@
 			(uuid "609e70e5-f217-474b-bf4f-407d3425ab03")
 		)
 		(pin "3V3_5" output
-			(at 49.53 110.49 0)
+			(at 49.53 100.965 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2050,7 +2070,7 @@
 			(uuid "f72102c6-c375-4861-aec0-0b004542853b")
 		)
 		(pin "3V3_7" output
-			(at 49.53 115.57 0)
+			(at 49.53 106.045 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2060,7 +2080,7 @@
 			(uuid "9c59b286-b31a-436a-9bb0-9147354766c5")
 		)
 		(pin "3V3_8" output
-			(at 49.53 118.11 0)
+			(at 49.53 108.585 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2070,7 +2090,7 @@
 			(uuid "0f1ec85f-b7b3-445c-8300-f1b7975e1e46")
 		)
 		(pin "3V3_9" output
-			(at 49.53 120.65 0)
+			(at 49.53 111.125 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2080,7 +2100,7 @@
 			(uuid "af062558-4e53-4d47-96dd-e88c42a3a96a")
 		)
 		(pin "3V3_11" output
-			(at 49.53 123.19 0)
+			(at 49.53 113.665 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2090,7 +2110,7 @@
 			(uuid "166693ba-2541-41d3-ae0a-18ade5c9b982")
 		)
 		(pin "3V3_12" output
-			(at 49.53 125.73 0)
+			(at 49.53 116.205 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2100,7 +2120,7 @@
 			(uuid "3c4ba84f-c10b-4c1f-9e04-677bf2a2b1c5")
 		)
 		(pin "3V3_2" output
-			(at 49.53 102.87 0)
+			(at 49.53 93.345 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2110,7 +2130,7 @@
 			(uuid "b82b6631-306e-47ee-884e-2510064e7259")
 		)
 		(pin "3V3_6" output
-			(at 49.53 113.03 0)
+			(at 49.53 103.505 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2120,7 +2140,7 @@
 			(uuid "0e7fe8fd-7671-4744-ae85-975f2d2d18ab")
 		)
 		(pin "5V0_1" output
-			(at 49.53 50.8 0)
+			(at 49.53 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2130,7 +2150,7 @@
 			(uuid "12a2a0cf-3281-4c9f-afd9-c29e5f6f55d8")
 		)
 		(pin "5V0_2" output
-			(at 49.53 97.79 0)
+			(at 49.53 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2140,7 +2160,7 @@
 			(uuid "df7e4ecb-cf2a-4aab-9c29-44aa80655f25")
 		)
 		(pin "CAN2H" bidirectional
-			(at 49.53 138.43 0)
+			(at 49.53 127.635 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2150,7 +2170,7 @@
 			(uuid "f7a44a09-8ff9-47ff-b366-6533efcb5a7e")
 		)
 		(pin "CAN2L" bidirectional
-			(at 49.53 140.97 0)
+			(at 49.53 130.175 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2158,6 +2178,56 @@
 				(justify right)
 			)
 			(uuid "e487a32f-6f5b-41fc-a541-d42071681fab")
+		)
+		(pin "2V8_1" output
+			(at 49.53 75.565 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "4792a140-e756-4c1f-8681-48f26502b96e")
+		)
+		(pin "SCI_RST" output
+			(at 49.53 141.605 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "5a056d61-1b6b-4fea-bd36-ae3413357941")
+		)
+		(pin "5V0_3" output
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "0e0a38f0-98e6-45be-9126-f8a1182b3e95")
+		)
+		(pin "3V3_13" output
+			(at 49.53 118.745 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "635ea602-870b-42a8-af83-bcdbad311517")
+		)
+		(pin "5V0_4" output
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "8a449081-597b-4380-ae4f-0af9f1ac3071")
 		)
 		(instances
 			(project "openlst-hw"
