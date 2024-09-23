@@ -444,7 +444,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -1115,16 +1115,44 @@
       "RF"
     ],
     [
-      "b9e97f7d-12ec-4b5e-bc04-614f435faf3e",
-      "UART-CAN"
+      "0626f4ed-250b-407a-9d18-c746696be78b",
+      "OSC_HSE_TCXO"
     ],
     [
-      "2a6bdfd7-41a7-4911-995f-8535abdbc7e3",
-      "Power Converters"
+      "ef1ab528-9bdd-46bc-a137-513373175d48",
+      "CAN Transceiver2"
     ],
     [
       "00000000-0000-0000-0000-0000612c4ae4",
       "INTERBOARD_CONNECTOR2"
+    ],
+    [
+      "53f12969-e593-459a-9671-cc23a5a9aea0",
+      "CAN Bridge"
+    ],
+    [
+      "505d7be7-0770-45bf-bc6f-d3bee2934d1d",
+      "CAN Transceiver1"
+    ],
+    [
+      "730bd731-7be7-49ed-966d-7ccd975f4386",
+      "Debug"
+    ],
+    [
+      "9886b2ec-bcf1-45d3-b809-b13147854a63",
+      "CAN Power 5V"
+    ],
+    [
+      "60d58b33-0740-4c36-b3ae-980d12846d14",
+      "USB Connector"
+    ],
+    [
+      "f4ff56ce-2fa2-4b99-a709-c113709260c1",
+      "PMIC"
+    ],
+    [
+      "628ad651-1312-4f46-81d9-5410d3446e8f",
+      "USB"
     ]
   ],
   "text_variables": {}
