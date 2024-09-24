@@ -295,26 +295,6 @@
 		(color 0 0 0 0)
 		(uuid "9b582b31-b778-44b3-a79a-2f264bbe777f")
 	)
-	(junction
-		(at 84.455 69.215)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a72f44d1-25d2-4f1a-ae0f-a9e6ae684796")
-	)
-	(junction
-		(at 84.455 62.865)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd248ca3-401a-4835-aaad-e99b0a7eb41d")
-	)
-	(no_connect
-		(at 212.09 82.55)
-		(uuid "1c90b0de-11f7-4a19-9232-8a7f9b346b7b")
-	)
-	(no_connect
-		(at 212.09 85.725)
-		(uuid "ec2e390e-bbd9-42b1-b705-34b497f488db")
-	)
 	(wire
 		(pts
 			(xy 84.455 59.69) (xy 116.205 59.69)
@@ -324,16 +304,6 @@
 			(type default)
 		)
 		(uuid "02d23578-70e2-46bf-81ff-767621c14899")
-	)
-	(wire
-		(pts
-			(xy 84.455 62.865) (xy 84.455 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "080b1fa7-1328-41da-9c13-b9ac80cb7b3a")
 	)
 	(wire
 		(pts
@@ -447,16 +417,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 85.725) (xy 180.975 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9871d6-400e-443d-a2f7-da85a2c97ed5")
-	)
-	(wire
-		(pts
 			(xy 111.76 41.91) (xy 116.205 41.91)
 		)
 		(stroke
@@ -534,16 +494,6 @@
 			(type default)
 		)
 		(uuid "aff5bd43-ead8-4cc3-bba9-c0afedd40474")
-	)
-	(wire
-		(pts
-			(xy 176.53 82.55) (xy 180.975 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b294a712-e993-48e7-aa06-f04d1a744840")
 	)
 	(wire
 		(pts
@@ -806,30 +756,6 @@
 		)
 		(uuid "7979ebd3-046a-4a0f-a0ac-8dcd554fc3e4")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 212.09 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "7c2f0c61-4586-427c-9ed5-a763df21b7f5")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 212.09 92.075 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "81336a55-3294-4029-ae0a-8c3cc987f3ce")
-	)
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 176.53 46.355 0)
@@ -964,7 +890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 200.66 62.865 0)
 			(effects
 				(font
@@ -1129,104 +1055,6 @@
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 180.975 78.105)
-		(size 31.115 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "60d58b33-0740-4c36-b3ae-980d12846d14")
-		(property "Sheetname" "USB Connector"
-			(at 180.975 77.3934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../avionics_board/USB.kicad_sch"
-			(at 180.975 95.1996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND1" output
-			(at 212.09 92.075 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "ab22bbd9-abb2-4f7b-95d5-dbc670253a6e")
-		)
-		(pin "USB_OTG_FS_DM" bidirectional
-			(at 180.975 85.725 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "52ec623b-26bf-4e94-9170-176789aaeda0")
-		)
-		(pin "VUSB1" output
-			(at 212.09 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "b3f39198-a646-4d4f-8050-447d424beb34")
-		)
-		(pin "GND2" output
-			(at 212.09 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "d228356d-fbf1-432a-a5ec-a49b403c1aad")
-		)
-		(pin "VUSB2" output
-			(at 212.09 85.725 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "3c3d3365-b11e-4479-9d8e-5e9efcae7ed8")
-		)
-		(pin "USB_OTG_FS_DP" bidirectional
-			(at 180.975 82.55 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "b36a19f4-5515-4b2e-9753-813bd2b4dee2")
-		)
-		(instances
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0"
-					(page "10")
 				)
 			)
 		)
@@ -1487,7 +1315,7 @@
 			)
 			(uuid "77e00429-d318-4705-92f3-0ae1c60e067c")
 		)
-		(pin "CAN2_RX" input
+		(pin "CAN1_RX" input
 			(at 116.205 59.69 180)
 			(effects
 				(font
@@ -1517,7 +1345,7 @@
 			)
 			(uuid "02dcc37c-4325-46e5-ac8a-8f2de7dbff27")
 		)
-		(pin "CAN1_RX" input
+		(pin "CAN2_RX" input
 			(at 116.205 92.075 180)
 			(effects
 				(font

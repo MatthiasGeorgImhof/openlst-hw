@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -1143,12 +1143,12 @@
       "CAN Power 5V"
     ],
     [
-      "60d58b33-0740-4c36-b3ae-980d12846d14",
-      "USB Connector"
-    ],
-    [
       "f4ff56ce-2fa2-4b99-a709-c113709260c1",
       "PMIC"
+    ],
+    [
+      "3711f4d8-fcd4-4aaf-a727-d534b54827fd",
+      "Schmitt Trigger"
     ],
     [
       "628ad651-1312-4f46-81d9-5410d3446e8f",

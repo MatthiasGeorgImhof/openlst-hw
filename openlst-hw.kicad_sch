@@ -721,7 +721,7 @@
 	)
 	(hierarchical_label "3V3_BRIDGE"
 		(shape bidirectional)
-		(at 45.72 79.375 180)
+		(at 45.72 81.915 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -829,7 +829,7 @@
 	)
 	(hierarchical_label "3V3_CAN"
 		(shape bidirectional)
-		(at 45.72 81.915 180)
+		(at 45.72 79.375 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -944,7 +944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b41063b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 140.97 196.85 0)
 			(effects
 				(font
@@ -994,7 +994,7 @@
 		(instances
 			(project ""
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1027,7 +1027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:MountingHole_4.3mm_M4_Pad_Via_Custom"
+		(property "Footprint" "Common:MountingHole_4.3mm_M4_Pad_Via_Custom"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -1093,7 +1093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:MountingHole_4.3mm_M4_Pad_Via_Custom"
+		(property "Footprint" "Common:MountingHole_4.3mm_M4_Pad_Via_Custom"
 			(at 151.13 176.53 0)
 			(effects
 				(font
@@ -1159,7 +1159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:MountingHole_4.3mm_M4_Pad_Via_Custom"
+		(property "Footprint" "Common:MountingHole_4.3mm_M4_Pad_Via_Custom"
 			(at 151.13 181.61 0)
 			(effects
 				(font
@@ -1225,7 +1225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:MountingHole_4.3mm_M4_Pad_Via_Custom"
+		(property "Footprint" "Common:MountingHole_4.3mm_M4_Pad_Via_Custom"
 			(at 151.13 186.69 0)
 			(effects
 				(font
@@ -1274,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1495ee-d534-4d83-ba3c-4da5a0cf34fb")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 109.855 106.68 0)
 			(effects
 				(font
@@ -1324,7 +1324,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1340,7 +1340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5910e329-7eae-46a7-b37c-1023e373088b")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 132.715 106.68 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -1406,7 +1406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae4e6042-454f-49d4-9353-569bd91ca1e8")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 151.13 106.68 0)
 			(effects
 				(font
@@ -1456,7 +1456,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -1472,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c6899f-1e0b-4500-8b01-03fc551968eb")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -1522,7 +1522,7 @@
 		(instances
 			(project ""
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2241,7 +2241,7 @@
 				(justify left top)
 			)
 		)
-		(pin "UART0_CTS" output
+		(pin "UART1_CTS" output
 			(at 154.305 59.69 180)
 			(effects
 				(font
@@ -2251,7 +2251,7 @@
 			)
 			(uuid "1a8a2ee0-450d-4e8a-80a7-4d69d3d20d6e")
 		)
-		(pin "UART0_RX" input
+		(pin "UART1_RX" input
 			(at 154.305 49.53 180)
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 			)
 			(uuid "b2ceb93b-a613-4487-8a24-93a13cb4dbb8")
 		)
-		(pin "UART0_RTS" input
+		(pin "UART1_RTS" input
 			(at 154.305 57.15 180)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 			)
 			(uuid "d1f88107-5e53-4f2e-a0bb-b09adba81247")
 		)
-		(pin "UART0_TX" output
+		(pin "UART1_TX" output
 			(at 154.305 46.99 180)
 			(effects
 				(font

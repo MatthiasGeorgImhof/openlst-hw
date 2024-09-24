@@ -3864,7 +3864,7 @@
 		)
 		(uuid 72405af0-a0d4-4a87-81f5-12bc3d3a9799)
 	)
-	(text "UART Headers (3.3 V)"
+	(text "UART0 Headers (3.3 V)"
 		(exclude_from_sim no)
 		(at 27.94 146.05 0)
 		(effects
@@ -4012,17 +4012,6 @@
 		)
 		(uuid "241fcdef-9e5c-4b7a-9d6a-41cf1016cb4f")
 	)
-	(label "UART1_TX"
-		(at 114.3 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "356dbe6f-79a9-4180-91c9-e1b24e4100e2")
-	)
 	(label "+3V3_C1110"
 		(at 114.3 59.69 180)
 		(fields_autoplaced yes)
@@ -4045,7 +4034,7 @@
 		)
 		(uuid "40b83dfd-4b55-4212-8d31-0766cd6bd16a")
 	)
-	(label "UART1_CTS"
+	(label "UART0_CTS"
 		(at 50.8 171.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4100,7 +4089,7 @@
 		)
 		(uuid "78794c35-8c0b-4c04-84ac-c0e3d15d5cb1")
 	)
-	(label "UART1_RX"
+	(label "UART0_RX"
 		(at 38.1 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4110,17 +4099,6 @@
 			(justify left bottom)
 		)
 		(uuid "8af66fa5-0bbf-4d0b-a154-fdf5fa8be264")
-	)
-	(label "UART1_RTS"
-		(at 114.3 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ffeecfe-e229-4950-86ec-34c7e8a3dd0a")
 	)
 	(label "LED1"
 		(at 114.3 82.55 180)
@@ -4133,17 +4111,6 @@
 		)
 		(uuid "954130ce-601e-4662-af35-f4112694be42")
 	)
-	(label "UART1_RX"
-		(at 114.3 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "95a29b41-2562-4b54-a8fa-b5b8debadf36")
-	)
 	(label "+3V3_C1110"
 		(at 113.03 29.21 0)
 		(fields_autoplaced yes)
@@ -4154,6 +4121,17 @@
 			(justify left bottom)
 		)
 		(uuid "9b1850cb-a0e8-4120-81e6-ffeddb2a954f")
+	)
+	(label "UART0_RX"
+		(at 114.3 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "afea149b-b33d-4327-ac06-c93dfee0cd2b")
 	)
 	(label "LST_TX_MODE"
 		(at 151.13 186.69 0)
@@ -4177,7 +4155,18 @@
 		)
 		(uuid "b3ce728c-afbe-4f79-ba0a-2ba42cb44cf3")
 	)
-	(label "UART1_TX"
+	(label "UART0_CTS"
+		(at 114.3 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1930475-8a65-400a-b799-e1895226be06")
+	)
+	(label "UART0_TX"
 		(at 38.1 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4188,7 +4177,7 @@
 		)
 		(uuid "c633f255-7859-4dd8-8742-1ada9dfd4ead")
 	)
-	(label "UART1_RTS"
+	(label "UART0_RTS"
 		(at 50.8 163.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4199,8 +4188,8 @@
 		)
 		(uuid "c875dec1-e25d-4a29-abbe-e32313f038dd")
 	)
-	(label "UART1_CTS"
-		(at 114.3 72.39 180)
+	(label "UART0_RTS"
+		(at 114.3 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4208,7 +4197,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d25fe032-aa1a-4543-a07f-7e73bf10e81b")
+		(uuid "de661b24-99d9-49b6-b2e3-34b3de0f78b0")
+	)
+	(label "UART0_TX"
+		(at 114.3 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e78d4cee-f25b-4ed2-801c-bd3125081714")
 	)
 	(label "AN0"
 		(at 114.3 67.31 180)
@@ -4434,18 +4434,6 @@
 		)
 		(uuid "138f880b-d23a-417c-8461-b51afff18f0d")
 	)
-	(hierarchical_label "UART0_TX"
-		(shape output)
-		(at 114.3 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "17946fe5-7060-42ab-be86-09e373d96882")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 31.75 161.29 0)
@@ -4469,18 +4457,6 @@
 			(justify left)
 		)
 		(uuid "1cd02e10-d961-400d-9d31-04ef66fe3988")
-	)
-	(hierarchical_label "UART0_CTS"
-		(shape output)
-		(at 114.3 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "21423bce-3b5a-494e-a385-4e59c5f03c41")
 	)
 	(hierarchical_label "LST_RX_MODE"
 		(shape output)
@@ -4542,18 +4518,6 @@
 		)
 		(uuid "47db9630-406a-4c81-9781-d74fc5cdfd96")
 	)
-	(hierarchical_label "UART0_RX"
-		(shape input)
-		(at 114.3 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "4b3b0831-e114-42d2-a03c-04c2be25be8b")
-	)
 	(hierarchical_label "VRF"
 		(shape input)
 		(at 104.14 161.29 180)
@@ -4578,6 +4542,18 @@
 		)
 		(uuid "63fb9ad3-18e4-4c56-9b7b-d1fe478e90cf")
 	)
+	(hierarchical_label "UART1_TX"
+		(shape input)
+		(at 114.3 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "6509586f-5449-4736-a7c9-1bdcc528594e")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 233.68 110.49 0)
@@ -4589,18 +4565,6 @@
 			(justify left)
 		)
 		(uuid "6f357c87-fb1d-41c6-8b79-5e910cf418fe")
-	)
-	(hierarchical_label "UART0_RTS"
-		(shape input)
-		(at 114.3 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "71797ed3-1e1e-4a46-a4dc-bc92e950848d")
 	)
 	(hierarchical_label "RF_EN"
 		(shape output)
@@ -4625,6 +4589,18 @@
 			(justify left)
 		)
 		(uuid "79db93cb-e0b4-4ae7-a39c-43e9619c1874")
+	)
+	(hierarchical_label "UART1_RTS"
+		(shape input)
+		(at 114.3 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8e95de8b-9fa3-4c1c-bf1f-1dcf7bf1755d")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4685,6 +4661,18 @@
 			(justify left)
 		)
 		(uuid "a424a139-0348-4a67-a71f-059fa46e02ad")
+	)
+	(hierarchical_label "UART1_RX"
+		(shape input)
+		(at 114.3 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "af2b3cd5-0cb6-4649-895d-27f1939c95e0")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4853,6 +4841,18 @@
 			(justify left)
 		)
 		(uuid "e8d0091e-847a-400d-b8ed-8221bd1a39e8")
+	)
+	(hierarchical_label "UART1_CTS"
+		(shape input)
+		(at 114.3 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "f2744368-0fc2-4315-9962-c262d549e415")
 	)
 	(hierarchical_label "RF_EN"
 		(shape output)
@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Value" "TG2520SMN 27MHz"
+		(property "Value" "27MHz"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -6528,7 +6528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+		(property "Datasheet" "https://abracon.com/AIGOscillators/ASDAIG.pdf"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -6546,7 +6546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
+		(property "Description" "Crystal Oscillator 27MHz"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -6555,7 +6555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. #" "TG2520SMN 27.0000M-MCGNNM3"
+		(property "Mfr. #" "ASDAIG-27.000MHZ-C-S-T"
 			(at 191.77 66.6496 0)
 			(effects
 				(font
@@ -7114,7 +7114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:Texas_RHH0036C_VQFN-36-1EP_6x6mm_P0.5mm_EP4.4x4.4mm_ThermalVias"
+		(property "Footprint" "Common:Texas_RHH0036C_VQFN-36-1EP_6x6mm_P0.5mm_EP4.4x4.4mm_ThermalVias"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab7542ac-d764-4679-adbd-7ed1e853a4fa")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 111.125 29.21 0)
 			(effects
 				(font
@@ -8401,7 +8401,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/f5534efb-fc6e-465a-a57b-daca63f2ce0c"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -8749,7 +8749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -9951,7 +9951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e48d6579-9cb5-4285-b16b-7cabb09f42fd")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 250.19 156.21 0)
 			(effects
 				(font
@@ -10001,7 +10001,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/f5534efb-fc6e-465a-a57b-daca63f2ce0c"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

@@ -7056,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:SF2446E"
+		(property "Footprint" "Common:SF2446E"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -8885,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:RFFM6406"
+		(property "Footprint" "Common:RFFM6406"
 			(at 215.9 107.95 0)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:LINX_CONSMA001-G"
+		(property "Footprint" "Common:LINX_CONSMA001-G"
 			(at 273.05 118.11 0)
 			(effects
 				(font
@@ -9505,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:LINX_CONSMA001-G"
+		(property "Footprint" "Common:LINX_CONSMA001-G"
 			(at 128.27 135.89 0)
 			(effects
 				(font
