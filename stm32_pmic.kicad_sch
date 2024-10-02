@@ -2875,10 +2875,6 @@
 		(uuid "e73ded37-b6c2-4924-8776-8b2d832a85f7")
 	)
 	(no_connect
-		(at 189.23 133.985)
-		(uuid "f668e89c-5fed-464b-a6ad-71b2ad73d808")
-	)
-	(no_connect
 		(at 189.23 73.025)
 		(uuid "f83c4481-54e4-436d-b0e0-53a7dd0199a7")
 	)
@@ -3758,6 +3754,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 133.985) (xy 189.23 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a42bd3-c964-45a9-a8bb-c4e9454c47ff")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.865) (xy 156.21 62.865)
 		)
 		(stroke
@@ -4269,8 +4275,8 @@
 		)
 		(uuid "9104021d-6e9f-4248-a149-ae9faed4239c")
 	)
-	(hierarchical_label "CAN_RS"
-		(shape input)
+	(hierarchical_label "CAN_STB"
+		(shape output)
 		(at 193.04 131.445 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4366,7 +4372,7 @@
 		(uuid "a86ccb49-4298-4584-bf3c-279f053014e4")
 	)
 	(hierarchical_label "CAN2_TX"
-		(shape input)
+		(shape output)
 		(at 193.04 128.905 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4388,6 +4394,18 @@
 			(justify left)
 		)
 		(uuid "a89b5b63-5c9c-4717-b172-ca42de462671")
+	)
+	(hierarchical_label "CAN_SHDN"
+		(shape output)
+		(at 193.04 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abab6587-b445-4b31-bf15-a8967c88ddbf")
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape input)

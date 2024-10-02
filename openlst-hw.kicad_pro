@@ -471,7 +471,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -505,7 +505,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -1126,10 +1126,6 @@
     [
       "730bd731-7be7-49ed-966d-7ccd975f4386",
       "Debug"
-    ],
-    [
-      "9886b2ec-bcf1-45d3-b809-b13147854a63",
-      "CAN Power 5V"
     ],
     [
       "f4ff56ce-2fa2-4b99-a709-c113709260c1",

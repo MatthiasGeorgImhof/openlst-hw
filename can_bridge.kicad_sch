@@ -290,10 +290,28 @@
 		)
 	)
 	(junction
+		(at 116.205 104.775)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "964c8905-7450-472b-b4a8-b406e7d965be")
+	)
+	(junction
 		(at 92.71 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b582b31-b778-44b3-a79a-2f264bbe777f")
+	)
+	(junction
+		(at 99.06 104.775)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd3e953-516d-4f76-94ea-fb2780e06693")
+	)
+	(junction
+		(at 84.455 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d9a4be-9836-47a6-9d7c-8c9191727103")
 	)
 	(wire
 		(pts
@@ -307,6 +325,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 104.775) (xy 99.06 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e4a34a-ba13-4a6f-a3c6-5036bc331859")
+	)
+	(wire
+		(pts
 			(xy 84.455 62.865) (xy 116.205 62.865)
 		)
 		(stroke
@@ -317,23 +345,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 127.635) (xy 36.83 127.635)
+			(xy 116.205 104.775) (xy 116.84 104.775)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16ea44cd-7053-4478-8b11-a48b99254bd6")
-	)
-	(wire
-		(pts
-			(xy 76.2 123.825) (xy 65.405 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1884b5c6-2cc9-4c67-831b-5193ba177fec")
+		(uuid "13eccbcc-1996-4d13-b65a-04bee9312ff4")
 	)
 	(wire
 		(pts
@@ -344,6 +362,16 @@
 			(type default)
 		)
 		(uuid "19bb0c34-2afe-4698-8775-d2ff8291b3cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 99.06 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c279cb0-c320-4869-92c0-053046536e0a")
 	)
 	(wire
 		(pts
@@ -394,6 +422,16 @@
 			(type default)
 		)
 		(uuid "614c90b7-bfdc-4451-b2ee-d917de9ebe09")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.775) (xy 116.205 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6403bae6-205c-4978-b859-c7aca6470be2")
 	)
 	(wire
 		(pts
@@ -487,13 +525,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 57.785) (xy 36.195 57.785)
+			(xy 83.82 66.04) (xy 84.455 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aff5bd43-ead8-4cc3-bba9-c0afedd40474")
+		(uuid "a4f0b7eb-a442-4044-93df-4453534ca7df")
+	)
+	(wire
+		(pts
+			(xy 84.455 66.04) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af37ec94-e693-4f12-b2fd-f858c9512746")
 	)
 	(wire
 		(pts
@@ -527,16 +575,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 90.17) (xy 36.195 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8342db-a33b-422d-815a-ae085032dbb2")
-	)
-	(wire
-		(pts
 			(xy 189.865 66.04) (xy 189.865 65.405)
 		)
 		(stroke
@@ -544,50 +582,6 @@
 			(type default)
 		)
 		(uuid "eabadc5a-ea2d-4d27-93cc-81c878407a78")
-	)
-	(label "VCC_CAN"
-		(at 25.4 57.785 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "32b3aa4f-52a0-46c0-bc23-29202d629ef6")
-	)
-	(label "VCC_CAN"
-		(at 25.4 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "506963c3-0f8d-4acc-8a77-0fcf457661fb")
-	)
-	(label "CAN_RS"
-		(at 26.035 127.635 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "533afd97-7652-4e67-8f1d-aeb17e408e08")
-	)
-	(label "VCC_CAN"
-		(at 76.2 123.825 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "783469bb-3f5d-4f16-88f9-c19ce1ab3635")
 	)
 	(label "CAN_RS"
 		(at 106.045 69.215 0)
@@ -650,7 +644,7 @@
 	)
 	(hierarchical_label "VIO_CAN"
 		(shape input)
-		(at 36.195 60.96 180)
+		(at 36.195 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -744,18 +738,6 @@
 		)
 		(uuid "6cacc0f7-239e-45e6-8b70-fce1ce606c3b")
 	)
-	(hierarchical_label "VIO_CAN"
-		(shape input)
-		(at 36.83 123.825 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "7979ebd3-046a-4a0f-a0ac-8dcd554fc3e4")
-	)
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 176.53 46.355 0)
@@ -803,18 +785,6 @@
 			(justify left)
 		)
 		(uuid "db74c513-58a6-4ebc-95f1-8b3f2feefc3a")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 65.405 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "de818d60-8f7f-43c1-9775-903b325600d0")
 	)
 	(hierarchical_label "VIO_CAN"
 		(shape input)
@@ -992,7 +962,7 @@
 			(uuid "bf78f707-a547-4194-97fb-2f2aa2b32a60")
 		)
 		(pin "VIO" input
-			(at 36.195 60.96 180)
+			(at 36.195 59.69 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1010,26 +980,6 @@
 				(justify right)
 			)
 			(uuid "3ee512d9-0860-4033-914e-b4512aa26fc2")
-		)
-		(pin "RS" output
-			(at 84.455 69.215 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "452233ec-9e3c-430a-84a9-cc1a74995173")
-		)
-		(pin "VCC" input
-			(at 36.195 57.785 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "cf96ff89-cd2f-4d4f-a956-53d8275a9dff")
 		)
 		(pin "CANL" output
 			(at 36.195 69.85 180)
@@ -1051,88 +1001,30 @@
 			)
 			(uuid "f64f4137-4a0d-41d4-9586-75635f935cbe")
 		)
+		(pin "SHDN" input
+			(at 84.455 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "13217f61-45df-41ab-af48-0d7e61728aa0")
+		)
+		(pin "STB" output
+			(at 84.455 69.215 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "063324cd-c5ee-4ad6-a1c1-024a20148257")
+		)
 		(instances
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 36.83 121.285)
-		(size 28.575 13.335)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9886b2ec-bcf1-45d3-b809-b13147854a63")
-		(property "Sheetname" "CAN Power 5V"
-			(at 36.83 120.5734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../avionics_board/CAN_Power5.kicad_sch"
-			(at 36.83 135.2046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 65.405 132.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "e6e751eb-59c2-46ea-81fa-6ddb6f83d986")
-		)
-		(pin "VIN" input
-			(at 36.83 123.825 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "5cb25eb0-a1c9-42b2-a462-f0a9431bba77")
-		)
-		(pin "SHDN" input
-			(at 36.83 127.635 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "c389f345-5362-4d96-8990-37d3912ae6c8")
-		)
-		(pin "VOUT" output
-			(at 65.405 123.825 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "a087f7e5-fb30-407b-9de9-9b3d7627c407")
-		)
-		(instances
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0"
-					(page "9")
 				)
 			)
 		)
@@ -1207,26 +1099,6 @@
 			)
 			(uuid "dc255c39-b696-4eff-9c64-aa9e1e5613d4")
 		)
-		(pin "RS" output
-			(at 84.455 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "c515ad6c-249d-4dfe-a9c0-910e102bb752")
-		)
-		(pin "VCC" input
-			(at 36.195 90.17 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "6e3c62af-8010-43ae-8cf5-c3f052b6310c")
-		)
 		(pin "CANL" output
 			(at 36.195 102.235 180)
 			(effects
@@ -1246,6 +1118,26 @@
 				(justify left)
 			)
 			(uuid "ec6c8a87-a2e6-41d3-aedc-437dcbba2755")
+		)
+		(pin "SHDN" input
+			(at 84.455 104.775 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "f2d3bc47-a64b-48e4-9a8d-c01a8cd85688")
+		)
+		(pin "STB" output
+			(at 84.455 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "e71ba7d5-65a9-43d0-ac12-1e4aee45bc27")
 		)
 		(instances
 			(project "openlst-hw"
@@ -1305,7 +1197,7 @@
 			)
 			(uuid "21ccbb7b-36ef-411d-98d1-1ee118191586")
 		)
-		(pin "CAN_RS" output
+		(pin "CAN_STB" output
 			(at 116.205 69.215 180)
 			(effects
 				(font
@@ -1494,6 +1386,16 @@
 				(justify right)
 			)
 			(uuid "dc888553-d29a-44c9-957f-2736c71ee5c1")
+		)
+		(pin "CAN_SHDN" output
+			(at 116.205 104.775 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "4666c93f-fbc2-42d9-abdb-7e242b4023ac")
 		)
 		(instances
 			(project "openlst-hw"
